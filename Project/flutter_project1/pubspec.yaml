@@ -1,0 +1,70 @@
+name: your_app_name
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  android_intent_plus: ^5.2.0
+
+  # 🔥 FIREBASE (ALIGNED – FIXED)
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.2
+  firebase_auth_web: ^6.1.2
+  firebase_storage: ^13.0.4
+  google_sign_in: ^6.2.0
+
+  # PDF & Files
+  pdf: ^3.10.7
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+  share_plus: ^7.2.1
+
+  # Maps
+  google_maps_flutter: ^2.6.0
+
+  # Supabase
+  supabase_flutter: ^2.5.3
+
+  # Utilities
+  http: ^1.2.0
+  image_picker: ^1.1.1
+  intl: ^0.20.2
+  mime: ^1.0.4
+  url_launcher: ^6.2.5
+  mailer: ^6.3.0
+
+  # 3D viewer (stable)
+  model_viewer_plus: ^1.8.1
+
+  uuid: ^4.5.1
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  fl_chart: ^0.66.2
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  connectivity_plus: ^6.0.5
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/login_bg.jpg
+    - assets/image/ai_trip.jpeg
+    - assets/image/maps.png
+    - assets/image/scan.png
+    - assets/image/storage.png
+    - assets/image/service.jpeg
+    - assets/image/notification.png

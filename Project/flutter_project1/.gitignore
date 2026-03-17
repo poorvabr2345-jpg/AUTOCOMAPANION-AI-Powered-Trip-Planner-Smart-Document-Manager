@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Python
+node_modules/
+venv/
+venv310/
+__pycache__/
+*.pyd
+*.dll
+.env
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# APK files
+*.apk
+
+# Large files
+*.dill
+*.cache.dill
+
+# ==================================
+# DEPLOYMENT RELATED (DO NOT COMMIT)
+# ==================================
+
+# Android Signing Keys - CRITICAL!
+android/key.properties
+android/upload-keystore.jks
+android/*.jks
+android/*.keystore
+*.jks
+*.keystore
+
+# iOS Signing
+ios/*.mobileprovision
+ios/*.p12
+ios/*.cer
+ios/Runner.xcworkspace/xcuserdata/
+ios/Pods/
+
+# Firebase & Environment
+.firebase/
+firebase-debug.log
+.firebaserc
+firebase.json
+.env.local
+.env.production
+
+# Build outputs for deployment
+/build/web/
+/build/app/outputs/
+
+# Crash logs
+*.log
+flutter_*.log

@@ -1,0 +1,29 @@
+# Python virtual environments
+venv/
+venv310/
+__pycache__/
+*.pyc
+.env
+
+# Flutter build files
+.flutter-plugins
+.flutter-plugins-dependencies
+.build/
+.dart_tool/
+
+# Sensitive credentials
+**/firebase_key.json
+**/*_key.json
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files
+*.dll
+*.pyd
+*.so
+*.exe
